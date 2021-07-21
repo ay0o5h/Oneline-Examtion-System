@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.d-flex {
+    margin-right: 5%;
+}
+.navbar-brand {
+    margin-left: 5%;
+}
+nav .btn {
+    border-radius: .375rem;
+    outline: 0;
+    border:1px solid #225C74;
+    color:#225C74;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+nav .btn:hover {
+    background-color: #225C74;
+    color: white;
+}
+/* main */
+.main .btn {
+    background-color: #225C74;
+    color: white;
+    border-radius: .375rem;
+    outline: 0;
+    font-weight: bold;
+    font-family: monospace;
+    border: 0;
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+.main .btn:hover {
+    border:1px solid #225C74;
+    color:#225C74;
+    background-color: transparent;
+}
+.main h1 {
+    color: #225C74;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 50px;
+    text-transform: capitalize;
+}
+/* signup */
+input  {
+    display: block;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    padding: 2%;
+    border:1px solid #CCCCCC;
+    border-radius: .375rem;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+input::placeholder{
+    font-size: .85rem;
+    font-family:cursive;
+    text-transform: capitalize;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+label {
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #225C74;
+}
+
+  button {
+      border: 0;
+      outline: 0;
+      padding: 3%;
+      background-color: #ABD4E6;
+      color:white;
+      width: 80%;
+      border-radius: .375rem;
+      text-transform: capitalize;
+      font-weight: bold;
+      font-family: cursive;
+      cursor: pointer;
+  }
+  i {
+      color:#225C74;
+      font-size: 40px;
+      position: relative;
+      top:-50px;
+      left:10px;
+  }
+  /* login */
+  .login {
+      margin-top: 10%;
+  }
+  .login h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: cursive; 
+    color:#225C74;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+  }
+ .alert p {
+     font-family: monospace;
+     text-transform: capitalize;
+ }
+ /* admin page */
+ .navbar-nav {
+     position: absolute;
+     right: 0;
+ }
+ .nav-link {
+    font-family: monospace;
+    text-transform: capitalize;
+ }
